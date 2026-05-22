@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){var form=document.querySelector('form');if(!form)return;form.addEventListener('submit',function(){var btn=form.querySelector('button[type="submit"]');if(btn){btn.textContent='Hesaplanıyor...';btn.disabled=true;}});});
